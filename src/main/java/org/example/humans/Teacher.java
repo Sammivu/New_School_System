@@ -7,14 +7,14 @@ import java.util.Arrays;
 
 public class Teacher extends Person {
 
-    public Classes classTaught;
+    public String  classTaught;
     String [] subjectsTaught= {"Mathematics", "English", "Biology", "Geography", "Government","Accounting"};
 
-    public Classes getClassTaught() {
+    public String getClassTaught() {
         return classTaught;
     }
 
-    public void setClassTaught(Classes classTaught) {
+    public void setClassTaught(String classTaught) {
         this.classTaught = classTaught;
     }
 

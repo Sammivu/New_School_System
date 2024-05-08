@@ -5,8 +5,8 @@ import org.example.enums.Gender;
 public class Person {
 
     public String name;
-    private int age;
-    public Gender gender;
+    public int age;
+    public String gender;
 
     public String getName() {
         return name;
@@ -17,7 +17,6 @@ public class Person {
     }
 
     public int getAge() {
-
         return age;
     }
 
@@ -25,23 +24,21 @@ public class Person {
         this.age = age;
     }
 
-    public Gender getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(Gender gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
     @Override
     public String toString() {
         return "Person{" +
-                "name='" + name + '\'' +
+                "name=" + name + '\'' +
                 ", age=" + age +
-                ", gender=" + gender +
+                ", gender=" + gender + '\'' +
                 '}';
     }
-
-
 }
 

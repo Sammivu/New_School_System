@@ -3,7 +3,7 @@ package org.example.humans;
 import org.example.School;
 import org.example.enums.StudentStatus;
 
-public class Principal extends School {
+public class Principal extends Person {
 
 
     public StudentStatus studentStatus;
